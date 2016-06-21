@@ -25,6 +25,5 @@ class HelloWorld
         $sql = "SELECT what FROM hello";
         $stmt = $this->pdo->query($sql);
         return $stmt->fetchColumn();
-        
     }
 }
