@@ -3,6 +3,7 @@
 class HelloWorld
 {
     /**
+     * Test push by Sirius22503
      * @var PDO
      */
     private $pdo;
